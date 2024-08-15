@@ -1,0 +1,28 @@
+//
+// tls_certificate.rc
+//
+//  Created on: June 20, 2024
+//      Author: Dong Won Kim
+//
+GLFW_ICON ICON DISCARDABLE "favicon.ico"
+1 VERSIONINFO
+FILEVERSION     0,0,1,0
+PRODUCTVERSION  0,0,1,0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904E4"	// English US
+    BEGIN
+      VALUE "FileDescription", "TLS Certificate application"
+      VALUE "FileVersion", "0.0.1"
+      VALUE "InternalName", "TLS Certificate app"
+      VALUE "LegalCopyright", "(c) 2024 Dong Won Kim"
+      VALUE "ProductName", "TLS Certificate app"
+      VALUE "ProductVersion", "0.0.1"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1252	// English US
+  END
+END
